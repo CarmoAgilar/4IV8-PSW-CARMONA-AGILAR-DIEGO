@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&family=Merriweather:ital@1&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Problemas</title>
+<body>
+  <script src="js/problemas.js"></script>
+    <div class="contenedora">
+
+      <h1>Algoritmia</h1>
+      <h2 class="subtitulo">Seleccione el problema que desea ver<h2></h2>
+
+        <div class="rinafoto">
+        <img class="logo" src="img/rina.png">
+        </div>
+    </div>
+
+    <div class="contenedor">
+    <hr>
+    
+    <h3 class="subtitulo" >Problema 3</h3>
+    <hr>
+    <h4>
+        Dada una lista de palabras, encontrar la palabra que mas 
+        número de caracteres unicos tenga. 
+        <br>
+        Considera solamente un alfabeto de A-Z en mayúsculas.
+        <br>
+        Las palabras ingresadas deberan de estar separadas por una coma,
+        no se aceptan espacios.
+        <br>
+        Ejemplo: CASA = 3 (c, a, s)  PERRO = 4 (p, e, r, o)
+    </h4>
+    <input type="text" class="problema-input"
+    placeholder="Ingresa las palabras separadas por
+    una coma, no se aceptan espacios" id="p3-input" onkeyup = "this.value=this.value.toUpperCase()" >
+    <button type="button" class="problema-button"
+    style="margin-top: 1rem;" onClick="problema3()" >Calcular</button>
+    <pre class="problema-output" id="p3-output">
+        Esperando respuesta...
+    </pre>
+  <hr>
+    <div class="contenedorb">
+    </div>
+  
+
+  </body>
+</html>
